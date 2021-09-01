@@ -1,0 +1,17 @@
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\ButterWorth_Filter.exe.config
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\ButterWorth_Filter.exe
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\ButterWorth_Filter.pdb
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.Properties.Resources.resources
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.csproj.GenerateResource.cache
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.csproj.CoreCompileInputs.cache
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.exe
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.pdb
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\MathNet.Filtering.dll
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\MathNet.Numerics.dll
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\System.ValueTuple.dll
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\MathNet.Filtering.xml
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\MathNet.Numerics.xml
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\bin\Debug\System.ValueTuple.xml
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.csprojAssemblyReference.cache
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.csproj.CopyComplete
+D:\Leehong\ButterWorth_Filter\ButterWorth_Filter\obj\Debug\ButterWorth_Filter.Form1.resources
