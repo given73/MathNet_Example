@@ -29,21 +29,22 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_OneStepRun = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_FreeRun = new System.Windows.Forms.Button();
+            this.button_ChartClear = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button3 = new System.Windows.Forms.Button();
+            this.button_MakeSineWave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -51,57 +52,57 @@
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(3, 3);
             this.chart1.Name = "chart1";
             this.tableLayoutPanel1.SetRowSpan(this.chart1, 2);
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Legend = "Legend1";
-            series6.LegendText = "원본";
-            series6.Name = "Series_Origin";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Legend = "Legend1";
-            series7.LegendText = "Low Pass";
-            series7.Name = "Series_Lowpass";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.LegendText = "Hi Pass";
-            series8.Name = "Series_Hipass";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Legend = "Legend1";
-            series9.LegendText = "Bans Pass";
-            series9.Name = "Series_Bandpass";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series10.Legend = "Legend1";
-            series10.LegendText = "Band Pass Narrow";
-            series10.Name = "Series_BandpassNarrow";
-            this.chart1.Series.Add(series6);
-            this.chart1.Series.Add(series7);
-            this.chart1.Series.Add(series8);
-            this.chart1.Series.Add(series9);
-            this.chart1.Series.Add(series10);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.LegendText = "원본";
+            series1.Name = "Series_Origin";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Legend = "Legend1";
+            series2.LegendText = "Low Pass";
+            series2.Name = "Series_Lowpass";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.LegendText = "Hi Pass";
+            series3.Name = "Series_Hipass";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Legend = "Legend1";
+            series4.LegendText = "Bans Pass";
+            series4.Name = "Series_Bandpass";
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Legend = "Legend1";
+            series5.LegendText = "Band Pass Narrow";
+            series5.Name = "Series_BandpassNarrow";
+            this.chart1.Series.Add(series1);
+            this.chart1.Series.Add(series2);
+            this.chart1.Series.Add(series3);
+            this.chart1.Series.Add(series4);
+            this.chart1.Series.Add(series5);
             this.chart1.Size = new System.Drawing.Size(1324, 1060);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
-            // button1
+            // button_OneStepRun
             // 
-            this.button1.Location = new System.Drawing.Point(231, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_OneStepRun.Location = new System.Drawing.Point(3, 47);
+            this.button_OneStepRun.Name = "button_OneStepRun";
+            this.button_OneStepRun.Size = new System.Drawing.Size(98, 38);
+            this.button_OneStepRun.TabIndex = 1;
+            this.button_OneStepRun.Text = "1 Step Draw";
+            this.button_OneStepRun.UseVisualStyleBackColor = true;
+            this.button_OneStepRun.Click += new System.EventHandler(this.button_OneStepRun_Click);
             // 
             // textBox1
             // 
@@ -130,38 +131,49 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button_MakeSineWave);
+            this.panel1.Controls.Add(this.button_FreeRun);
+            this.panel1.Controls.Add(this.button_ChartClear);
+            this.panel1.Controls.Add(this.button_OneStepRun);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(1333, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(309, 527);
             this.panel1.TabIndex = 0;
             // 
-            // button2
+            // button_FreeRun
             // 
-            this.button2.Location = new System.Drawing.Point(3, 9);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button_FreeRun.Location = new System.Drawing.Point(3, 85);
+            this.button_FreeRun.Name = "button_FreeRun";
+            this.button_FreeRun.Size = new System.Drawing.Size(98, 38);
+            this.button_FreeRun.TabIndex = 3;
+            this.button_FreeRun.Text = "Free Run";
+            this.button_FreeRun.UseVisualStyleBackColor = true;
+            this.button_FreeRun.Click += new System.EventHandler(this.button_FreeRun_Click);
+            // 
+            // button_ChartClear
+            // 
+            this.button_ChartClear.Location = new System.Drawing.Point(3, 9);
+            this.button_ChartClear.Name = "button_ChartClear";
+            this.button_ChartClear.Size = new System.Drawing.Size(98, 38);
+            this.button_ChartClear.TabIndex = 2;
+            this.button_ChartClear.Text = "Clear Chart";
+            this.button_ChartClear.UseVisualStyleBackColor = true;
+            this.button_ChartClear.Click += new System.EventHandler(this.button_ChartClear_Click);
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // button3
+            // button_MakeSineWave
             // 
-            this.button3.Location = new System.Drawing.Point(3, 292);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(98, 38);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button_MakeSineWave.Location = new System.Drawing.Point(107, 24);
+            this.button_MakeSineWave.Name = "button_MakeSineWave";
+            this.button_MakeSineWave.Size = new System.Drawing.Size(130, 23);
+            this.button_MakeSineWave.TabIndex = 4;
+            this.button_MakeSineWave.Text = "Sine Wave";
+            this.button_MakeSineWave.UseVisualStyleBackColor = true;
+            this.button_MakeSineWave.Click += new System.EventHandler(this.button_MakeSineWave_Click);
             // 
             // Form1
             // 
@@ -182,13 +194,14 @@
         #endregion
 
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_OneStepRun;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button_ChartClear;
+        private System.Windows.Forms.Button button_FreeRun;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button_MakeSineWave;
     }
 }
 
